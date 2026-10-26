@@ -1,0 +1,43 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio artifacts
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.slnx
+
+## NuGet packages (restored on build)
+*.nupkg
+*.snupkg
+[Pp]ackages/
+!default.props
+*.nuspec
+
+## Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+## OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## SQLite databases (generated at runtime)
+*.db
+*.db-shm
+*.db-wal
+
+## Test coverage
+*.coverage
+coverage.xml
+TestResults/
+
+## Publish output
+[Pp]ublish/
